@@ -1,5 +1,5 @@
 module "kubernetes_stateful_set" {
-  source = "./kubernetes/r/kubernetes_stateful_set"
+  source = "./modules/kubernetes/r/kubernetes_stateful_set"
 
 
   metadata = [{

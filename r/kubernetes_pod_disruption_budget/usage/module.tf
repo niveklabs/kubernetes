@@ -1,5 +1,5 @@
 module "kubernetes_pod_disruption_budget" {
-  source = "./kubernetes/r/kubernetes_pod_disruption_budget"
+  source = "./modules/kubernetes/r/kubernetes_pod_disruption_budget"
 
 
   metadata = [{

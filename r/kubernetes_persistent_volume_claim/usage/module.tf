@@ -1,5 +1,5 @@
 module "kubernetes_persistent_volume_claim" {
-  source = "./kubernetes/r/kubernetes_persistent_volume_claim"
+  source = "./modules/kubernetes/r/kubernetes_persistent_volume_claim"
 
   wait_until_bound = null
 

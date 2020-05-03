@@ -1,5 +1,5 @@
 module "kubernetes_horizontal_pod_autoscaler" {
-  source = "./kubernetes/r/kubernetes_horizontal_pod_autoscaler"
+  source = "./modules/kubernetes/r/kubernetes_horizontal_pod_autoscaler"
 
 
   metadata = [{

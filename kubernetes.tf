@@ -1,7 +1,3 @@
-# kubernetes Provider
-
-[embedmd]:# (kubernetes.tf)
-```tf
 provider "kubernetes" {
   version = "1.11.1"
 
@@ -26,4 +22,3 @@ provider "kubernetes" {
     env         = {}
   }
 }
-```

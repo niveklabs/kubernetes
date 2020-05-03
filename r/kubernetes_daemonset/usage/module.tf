@@ -1,5 +1,5 @@
 module "kubernetes_daemonset" {
-  source = "./kubernetes/r/kubernetes_daemonset"
+  source = "./modules/kubernetes/r/kubernetes_daemonset"
 
 
   metadata = [{

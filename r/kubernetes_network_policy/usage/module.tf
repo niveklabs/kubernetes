@@ -1,5 +1,5 @@
 module "kubernetes_network_policy" {
-  source = "./kubernetes/r/kubernetes_network_policy"
+  source = "./modules/kubernetes/r/kubernetes_network_policy"
 
 
   metadata = [{

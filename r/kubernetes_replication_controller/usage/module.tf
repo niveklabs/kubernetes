@@ -1,5 +1,5 @@
 module "kubernetes_replication_controller" {
-  source = "./kubernetes/r/kubernetes_replication_controller"
+  source = "./modules/kubernetes/r/kubernetes_replication_controller"
 
 
   metadata = [{

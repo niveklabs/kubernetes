@@ -1,5 +1,5 @@
 module "kubernetes_deployment" {
-  source = "./kubernetes/r/kubernetes_deployment"
+  source = "./modules/kubernetes/r/kubernetes_deployment"
 
 
   metadata = [{

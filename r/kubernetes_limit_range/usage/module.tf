@@ -1,5 +1,5 @@
 module "kubernetes_limit_range" {
-  source = "./kubernetes/r/kubernetes_limit_range"
+  source = "./modules/kubernetes/r/kubernetes_limit_range"
 
 
   metadata = [{

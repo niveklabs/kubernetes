@@ -1,5 +1,5 @@
 module "kubernetes_cluster_role" {
-  source = "./kubernetes/r/kubernetes_cluster_role"
+  source = "./modules/kubernetes/r/kubernetes_cluster_role"
 
 
   metadata = [{

@@ -1,5 +1,5 @@
 module "kubernetes_secret" {
-  source = "./kubernetes/r/kubernetes_secret"
+  source = "./modules/kubernetes/r/kubernetes_secret"
 
   data = {}
   type = null

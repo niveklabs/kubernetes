@@ -1,5 +1,5 @@
 module "kubernetes_namespace" {
-  source = "./kubernetes/r/kubernetes_namespace"
+  source = "./modules/kubernetes/r/kubernetes_namespace"
 
 
   metadata = [{

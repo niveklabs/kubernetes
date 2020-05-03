@@ -1,5 +1,5 @@
 module "kubernetes_secret" {
-  source = "./kubernetes/d/kubernetes_secret"
+  source = "./modules/kubernetes/d/kubernetes_secret"
 
 
   metadata = [{

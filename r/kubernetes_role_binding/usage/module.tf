@@ -1,5 +1,5 @@
 module "kubernetes_role_binding" {
-  source = "./kubernetes/r/kubernetes_role_binding"
+  source = "./modules/kubernetes/r/kubernetes_role_binding"
 
 
   metadata = [{

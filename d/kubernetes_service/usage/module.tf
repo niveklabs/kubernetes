@@ -1,5 +1,5 @@
 module "kubernetes_service" {
-  source = "./kubernetes/d/kubernetes_service"
+  source = "./modules/kubernetes/d/kubernetes_service"
 
 
   metadata = [{

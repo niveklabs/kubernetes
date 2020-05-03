@@ -1,5 +1,5 @@
 module "kubernetes_pod" {
-  source = "./kubernetes/r/kubernetes_pod"
+  source = "./modules/kubernetes/r/kubernetes_pod"
 
 
   metadata = [{

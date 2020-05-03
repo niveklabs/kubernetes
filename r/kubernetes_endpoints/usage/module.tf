@@ -1,5 +1,5 @@
 module "kubernetes_endpoints" {
-  source = "./kubernetes/r/kubernetes_endpoints"
+  source = "./modules/kubernetes/r/kubernetes_endpoints"
 
 
   metadata = [{

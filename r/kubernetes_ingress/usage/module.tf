@@ -1,5 +1,5 @@
 module "kubernetes_ingress" {
-  source = "./kubernetes/r/kubernetes_ingress"
+  source = "./modules/kubernetes/r/kubernetes_ingress"
 
 
   metadata = [{

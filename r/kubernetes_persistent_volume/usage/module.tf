@@ -1,5 +1,5 @@
 module "kubernetes_persistent_volume" {
-  source = "./kubernetes/r/kubernetes_persistent_volume"
+  source = "./modules/kubernetes/r/kubernetes_persistent_volume"
 
 
   metadata = [{

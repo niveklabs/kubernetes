@@ -1,5 +1,5 @@
 module "kubernetes_resource_quota" {
-  source = "./kubernetes/r/kubernetes_resource_quota"
+  source = "./modules/kubernetes/r/kubernetes_resource_quota"
 
 
   metadata = [{

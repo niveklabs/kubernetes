@@ -1,5 +1,5 @@
 module "kubernetes_storage_class" {
-  source = "./kubernetes/d/kubernetes_storage_class"
+  source = "./modules/kubernetes/d/kubernetes_storage_class"
 
 
   metadata = [{

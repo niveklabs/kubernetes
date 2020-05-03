@@ -1,5 +1,5 @@
 module "kubernetes_service_account" {
-  source = "./kubernetes/r/kubernetes_service_account"
+  source = "./modules/kubernetes/r/kubernetes_service_account"
 
   automount_service_account_token = null
 

@@ -1,5 +1,5 @@
 module "kubernetes_priority_class" {
-  source = "./kubernetes/r/kubernetes_priority_class"
+  source = "./modules/kubernetes/r/kubernetes_priority_class"
 
   description    = null
   global_default = null

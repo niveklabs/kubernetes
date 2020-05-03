@@ -1,5 +1,5 @@
 module "kubernetes_job" {
-  source = "./kubernetes/r/kubernetes_job"
+  source = "./modules/kubernetes/r/kubernetes_job"
 
 
   metadata = [{

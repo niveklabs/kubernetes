@@ -1,5 +1,5 @@
 module "kubernetes_config_map" {
-  source = "./kubernetes/r/kubernetes_config_map"
+  source = "./modules/kubernetes/r/kubernetes_config_map"
 
   binary_data = {}
   data        = {}

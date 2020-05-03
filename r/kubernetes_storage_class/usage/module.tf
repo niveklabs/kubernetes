@@ -1,5 +1,5 @@
 module "kubernetes_storage_class" {
-  source = "./kubernetes/r/kubernetes_storage_class"
+  source = "./modules/kubernetes/r/kubernetes_storage_class"
 
   allow_volume_expansion = null
   mount_options          = []

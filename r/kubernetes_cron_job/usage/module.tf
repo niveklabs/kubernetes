@@ -1,5 +1,5 @@
 module "kubernetes_cron_job" {
-  source = "./kubernetes/r/kubernetes_cron_job"
+  source = "./modules/kubernetes/r/kubernetes_cron_job"
 
 
   metadata = [{
